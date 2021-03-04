@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace SmartNQuick.Logic.Entities.CashCow
 {
-    partial class CashEvent : VersionEntity, ICashEvent
+    internal partial class CashEvent : VersionEntity, ICashEvent
     {
         public string Title { get; set; }
         public string Description { get; set; }

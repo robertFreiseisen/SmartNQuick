@@ -12,7 +12,6 @@ namespace CommonBase.Attributes
             get => notMapped && HasImplementation == false;
             set => notMapped = value;
         }
-
         public bool HasImplementation { get; init; } = false;
         public bool IsAutoProperty { get; init; } = true;
         public int Order { get; set; } = 10_000;

@@ -4,6 +4,6 @@ namespace SmartNQuick.Contracts
 {
     public partial interface IVersionable : IIdentifiable
     {
-        public byte[] RowVerson { get; set; }
+        public byte[] RowVersion { get; set; }
     }
 }

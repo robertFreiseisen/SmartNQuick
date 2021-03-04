@@ -2,8 +2,8 @@
 
 namespace SmartNQuick.Logic.Entities
 {
-    abstract partial class VersionEntity : IdentityEntity, Contracts.IVersionable
+    internal abstract partial class VersionEntity : IdentityEntity, SmartNQuick.Contracts.IVersionable
     {
-        public byte[] RowVerson { get; set; }
+        public byte[] RowVersion { get; set; }
     }
 }

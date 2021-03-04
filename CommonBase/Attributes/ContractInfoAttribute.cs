@@ -1,4 +1,5 @@
 ﻿//@BaseCode
+
 using System;
 
 namespace CommonBase.Attributes
