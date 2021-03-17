@@ -1,5 +1,4 @@
 ﻿//@BaseCode
-
 using CommonBase.Extensions;
 using System;
 
